@@ -1,9 +1,14 @@
-bien_int = 36
-bien_float = 9.5
-bien_str = "Python"
-bien_bool = True
+age = 18
+score = 9.5
+string = "Xin chào bạn"
+boolean = True
 
-print(f"Giá trị: {bien_int} | Kiểu dữ liệu: {type(bien_int)}")
-print(f"Giá trị: {bien_float} | Kiểu dữ liệu: {type(bien_float)}")
-print(f"Giá trị: {bien_str} | Kiểu dữ liệu: {type(bien_str)}")
-print(f"Giá trị: {bien_bool} | Kiểu dữ liệu: {type(bien_bool)}")
+print("Tuổi:", age)
+print("Điểm số:", score)
+print("Chuỗi: ", string)
+print("Giá trị:", boolean)
+
+print(type(age))
+print(type(score))
+print(type(string))
+print(type(boolean))
